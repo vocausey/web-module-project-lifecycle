@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
+.img {
   height: 40vmin;
+  width: 50vh;
   pointer-events: none;
 }
 
@@ -35,4 +36,10 @@
   to {
     transform: rotate(360deg);
   }
+  p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(192, 17, 17);
+}
 }

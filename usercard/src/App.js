@@ -54,9 +54,10 @@ class App extends React.Component {
 
     render(){
       return(
-      <div>
+      <div className="App">
         <header>
-          <h1>Git Users Profile Search Engine</h1>
+          <h1>Git Users Card</h1>
+          <h2>Profile Search Engine</h2>
           <form>
               <input placeholder='Please enter a username'  onChange={this.handleChange}/>
               <button onClick={this.handleClick}>search</button>
